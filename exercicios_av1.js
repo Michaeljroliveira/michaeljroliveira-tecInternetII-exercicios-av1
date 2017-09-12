@@ -73,14 +73,14 @@ function exercicio05(pValores){
     var maior = Number.MIN_VALUE;
         menor = Number.MAX_VALUE;
     
-    for(var i in arguments){
+    for(var valor in arguments){
     
-       if (arguments[i] > maior) {
-            maior = arguments[i];
+       if (arguments[valor] > maior) {
+            maior = arguments[valor];
         }
 
-        if (arguments[i] < menor) {
-            menor = arguments[i];
+        if (arguments[valor] < menor) {
+            menor = arguments[valor];
         }
       
 
